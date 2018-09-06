@@ -58,7 +58,7 @@ for index in 1...10 {
 }
 
 //Problem 9
-for index in 10...1 {
+for index in (1...10).reversed() {
     print("\(index)")
 }
 
